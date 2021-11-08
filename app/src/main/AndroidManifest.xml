@@ -11,6 +11,9 @@
         android:theme="@style/Theme.FocusOnConstraint">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayStoreReplicaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
